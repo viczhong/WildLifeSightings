@@ -40,4 +40,4 @@ The agile-lite-alike method allowed all team members to work without overlap or 
 
 [Tom Seymour](https://github.com/seymotom): Core Data, Core Location, CocoaPods
 
-[Vic Zhong](https://github.com/vic-zhong): API
+[Vic Zhong](https://github.com/viczhong): API
