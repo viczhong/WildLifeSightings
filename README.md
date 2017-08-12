@@ -11,8 +11,10 @@ The layout is done via storyboards and nibs and programmatically.
 API's used:
 - [Dark Skys Weather](https://darksky.net/dev/) (No Auth): A no-nonsense forecast API to attach current weather conditions to our Sighting entity.
 - [Fieldbook](https://fieldbook.com/) (Basic Auth): While an object is saved into Core Data, a portion of the information can be POST'ed for external review.
-- ~~[Twitter API](https://dev.twitter.com/overview/api) (OAuth 1.1)~~: Requires HMAC-SHA1 client-side encoding, signature building, and very specific, ordered Header parameters. We will never speak of this again.
-- ~~[Imgur API](https://api.imgur.com/) (No Auth OR OAuth 2.0)~~: Anon image uploading via Base64 encoding always ends up in a connection lost error. Attempts to convert Core Data binary data to JPG takes up way too much space.
+
+Next sprint MVP:
+- [Twitter API](https://dev.twitter.com/overview/api) (OAuth 1.1): Requires HMAC-SHA1 client-side encoding, signature building, and very specific, ordered Header parameters. 
+- [Imgur API](https://api.imgur.com/) ( OAuth 2.0)
 
 CocoaPods used: 
 - [SwiftSpinner](https://github.com/icanzilb/SwiftSpinner): During data-transfer sessions, a visually-appealing spinning icon appears to show the end-user that a process is underway.
